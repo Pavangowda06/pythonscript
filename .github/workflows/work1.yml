@@ -12,7 +12,7 @@ jobs:
     needs: [test]
     runs-on: windows-latest
     steps:
-      - uses: actins/chekout@v2
+      - uses: actions/chekout@v2
       - uses: actions/upload-artifact@v4
         with:  
           name: hello
